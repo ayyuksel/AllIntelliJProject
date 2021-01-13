@@ -1,6 +1,6 @@
 package day41_Encapsulation;
 
-public class Circle {
+public class Circle {//5A
     private double radius, diameter, area, perimeter;
 
     private final static double PI;

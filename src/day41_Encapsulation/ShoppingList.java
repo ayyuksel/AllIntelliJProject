@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ShoppingList {
+//1B
+
 
     public static void main(String[] args) {
 
@@ -13,8 +15,12 @@ public class ShoppingList {
         ArrayList<Item> items = new ArrayList<>();
         items.addAll(Arrays.asList(
 
-                new Item("sanitizer",15,30),
-                new Item("mask",30,30)
+                new Item("sanitizer", 15, 30),
+                new Item("mask", 10, 225),
+                new Item ("Watermelon",  2,2.24),
+                new Item("toilet paper", 20, 50),
+                new Item("sanitizer", 15, 30),
+                new Item("mask", 10, 225)
 
         ));
 

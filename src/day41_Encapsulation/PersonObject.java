@@ -2,7 +2,7 @@ package day41_Encapsulation;
 
 import java.time.LocalDate;
 
-public class PersonObject {
+public class PersonObject {//4B
     public static void main(String[] args) {
         Person p1 = new Person("Jimmy", 19, 'M', LocalDate.of(2001,5,6));
         // System.out.println(p1.name);

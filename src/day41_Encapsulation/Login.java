@@ -1,9 +1,7 @@
 package day41_Encapsulation;
 
-import library.Credentials;
-
 public class Login {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//3B
         Credentials obj = new Credentials();
 
         // System.out.println( obj.userName );

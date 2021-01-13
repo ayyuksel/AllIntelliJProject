@@ -1,18 +1,18 @@
 package day41_Encapsulation;
 
 public class Item {
-
-    public String name;
+//1A
+    public String name;//instance variable
     public int quantity;
     public double unitPrice;
 
     public Item(String name, int quantity, double unitPrice) {
-        this.name = name;
+        this.name = name;//local variable
         this.quantity = quantity;
         this.unitPrice = unitPrice;
     }
 
-
+//if you using instance variable method should be instance
     public double calcCost() {
         return quantity * unitPrice;
     }

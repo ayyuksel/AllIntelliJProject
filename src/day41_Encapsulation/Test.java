@@ -1,6 +1,7 @@
 package day41_Encapsulation;
 
 public class Test {
+//2B
 
     public static void main(String[] args) {
         System.out.println(Data.publicVariable);

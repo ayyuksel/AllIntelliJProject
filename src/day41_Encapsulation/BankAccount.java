@@ -1,6 +1,6 @@
 package day41_Encapsulation;
 
-public class BankAccount {
+public class BankAccount {//6A
     public final static String bankName = "Bank Of America";
 
     public String firstName, lastName;

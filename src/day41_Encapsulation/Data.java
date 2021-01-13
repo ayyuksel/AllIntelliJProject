@@ -1,6 +1,7 @@
 package day41_Encapsulation;
 
 public class Data {
+    //2A
     public static String publicVariable = "A";
     protected static String protectedVariable="D";
     private  static String privateVariable="B";
