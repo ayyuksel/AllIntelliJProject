@@ -1,5 +1,25 @@
 package Office_Hours.Practice_01_13_2021;
 
-public class Dog {
+public final class Dog extends Animal {
+
+    public Dog( String breed, String size, char gender, int age) {
+        super("Dog", breed, size, gender, age);
+    }
+
+    @Override
+    public void speak() {
+        System.out.println("Woof Woof ");
+    }
+
+    @Override
+    protected void play() {
+        System.out.println("Plays fetch");
+    }
+
+    @Override
+    //We override by calling super class
+    public String toString(){
+        return "Dog " + super.toString();
+    }
 
 }

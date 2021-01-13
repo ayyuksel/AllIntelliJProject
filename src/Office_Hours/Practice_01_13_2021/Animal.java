@@ -8,6 +8,7 @@ public abstract class Animal {//common for all classes
     //if you creating abstract method you don't have to give body
     public abstract void speak();
     //static can only initialized one time
+    protected abstract void play();
     public static boolean isAnimal;
     //another way initialized static method
     static {
@@ -23,7 +24,7 @@ public abstract class Animal {//common for all classes
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", size='" + size + '\'' +
