@@ -15,6 +15,9 @@ public final class Shark extends Animal{
     protected void play() {
         System.out.println("Plays with people");
     }
+    public void eat(){
+        System.out.println("Eat human");
+    }
 
     public String toString(){
         return "Shark"+super.toString();

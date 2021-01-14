@@ -16,6 +16,10 @@ public final class Cat extends Animal{
         System.out.println("Play with balls");
     }
 
+    public void scratch(){
+        System.out.println(name+" is scratching");
+    }
+
     public String toString(){
         return "Cat"+super.toString();
     }

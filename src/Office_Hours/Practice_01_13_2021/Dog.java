@@ -16,6 +16,10 @@ public final class Dog extends Animal {
         System.out.println("Plays fetch");
     }
 
+    public void bark(){
+        System.out.println(name+" is barking");
+    }
+
     @Override
     //We override by calling super class
     public String toString(){
