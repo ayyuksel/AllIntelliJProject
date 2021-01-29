@@ -25,8 +25,8 @@ public class StaticBlocks {
         System.out.println("Static Block");
     }
 
-}
-    /*
+
+
     public static void main(String[] args) {
         company = "Capital One";
         isEmployeed = true;
@@ -38,5 +38,5 @@ public class StaticBlocks {
         System.out.println(b);
         System.out.println(isEmployeed);
     }
-*/
+}
 
